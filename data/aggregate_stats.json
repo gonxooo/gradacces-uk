@@ -1,0 +1,179 @@
+{
+  "total_postings": 335,
+  "category_distribution": {
+    "genuine_junior": 59,
+    "ambiguous": 180,
+    "paradox": 22,
+    "off_topic": 4,
+    "bootcamp": 70
+  },
+  "category_percentages": {
+    "genuine_junior": 17.6,
+    "ambiguous": 53.7,
+    "paradox": 6.6,
+    "off_topic": 1.2,
+    "bootcamp": 20.9
+  },
+  "real_software_roles": 261,
+  "gas_mean_real": 83.3,
+  "gas_median_real": 81.0,
+  "genuine_junior_rate_percent": 17.6,
+  "bootcamp_disguised_rate_percent": 20.9,
+  "paradox_rate_percent": 8.4,
+  "paradox_numerator": 22,
+  "paradox_denominator": 261,
+  "years_experience_distribution": {
+    "1": 7,
+    "2": 16,
+    "3": 1,
+    "5": 1,
+    "10": 2,
+    "20": 2
+  },
+  "tier_distribution": {
+    "genuine_accessible": 230,
+    "paradox": 22,
+    "off_topic": 4,
+    "bootcamp_disguised": 70,
+    "ambiguous_moderate": 9
+  },
+  "top_20_technologies": [
+    [
+      "c#",
+      28
+    ],
+    [
+      "python",
+      27
+    ],
+    [
+      "javascript",
+      20
+    ],
+    [
+      "react",
+      16
+    ],
+    [
+      "azure",
+      14
+    ],
+    [
+      "java",
+      13
+    ],
+    [
+      "typescript",
+      12
+    ],
+    [
+      "sql",
+      12
+    ],
+    [
+      "c++",
+      11
+    ],
+    [
+      "html",
+      10
+    ],
+    [
+      "nodejs",
+      9
+    ],
+    [
+      "css",
+      9
+    ],
+    [
+      "agile",
+      6
+    ],
+    [
+      "aws",
+      6
+    ],
+    [
+      "embedded",
+      5
+    ],
+    [
+      "kubernetes",
+      5
+    ],
+    [
+      "git",
+      5
+    ],
+    [
+      "ruby",
+      5
+    ],
+    [
+      "angular",
+      4
+    ],
+    [
+      "c",
+      3
+    ]
+  ],
+  "top_regions": [
+    [
+      "London",
+      74
+    ],
+    [
+      "South East England",
+      53
+    ],
+    [
+      "North West England",
+      26
+    ],
+    [
+      "South West England",
+      19
+    ],
+    [
+      "Scotland",
+      11
+    ],
+    [
+      "Eastern England",
+      10
+    ],
+    [
+      "Yorkshire And The Humber",
+      10
+    ],
+    [
+      "East Midlands",
+      9
+    ],
+    [
+      "North East England",
+      8
+    ],
+    [
+      "Northern Ireland",
+      7
+    ]
+  ],
+  "region_avg_gas": {
+    "North West England": 87.1,
+    "West Midlands": 89.6,
+    "London": 82.7,
+    "Scotland": 85.1,
+    "Eastern England": 82.9,
+    "South West England": 84.2,
+    "Northern Ireland": 81.0,
+    "South East England": 79.4,
+    "Yorkshire And The Humber": 87.3,
+    "East Midlands": 90.4,
+    "North East England": 83.6
+  },
+  "salary_mean_min": 35426.0,
+  "salary_mean_max": 40981.0
+}

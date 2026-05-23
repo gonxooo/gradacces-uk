@@ -1,0 +1,288 @@
+{
+  "baseline": {
+    "weights": {
+      "experience": 0.35,
+      "degree": 0.2,
+      "tech_breadth": 0.2,
+      "language": 0.15,
+      "salary_transparency": 0.1
+    },
+    "stats": {
+      "gas_mean": 85.99,
+      "gas_median": 84.25,
+      "categories": {
+        "genuine_junior": 17.61,
+        "ambiguous": 53.73,
+        "paradox": 6.57,
+        "off_topic": 1.19,
+        "bootcamp": 20.9
+      },
+      "total": 335
+    }
+  },
+  "scenarios": {
+    "experience": {
+      "-0.10": {
+        "gas_mean": 87.05,
+        "gas_median": 86.38,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "-0.05": {
+        "gas_mean": 86.52,
+        "gas_median": 85.31,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "+0.05": {
+        "gas_mean": 85.46,
+        "gas_median": 83.19,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "+0.10": {
+        "gas_mean": 84.93,
+        "gas_median": 82.12,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      }
+    },
+    "degree": {
+      "-0.10": {
+        "gas_mean": 84.37,
+        "gas_median": 82.62,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "-0.05": {
+        "gas_mean": 85.18,
+        "gas_median": 83.44,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "+0.05": {
+        "gas_mean": 86.8,
+        "gas_median": 85.06,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "+0.10": {
+        "gas_mean": 87.61,
+        "gas_median": 85.88,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      }
+    },
+    "tech_breadth": {
+      "-0.10": {
+        "gas_mean": 84.61,
+        "gas_median": 82.62,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "-0.05": {
+        "gas_mean": 85.3,
+        "gas_median": 83.44,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "+0.05": {
+        "gas_mean": 86.68,
+        "gas_median": 85.06,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "+0.10": {
+        "gas_mean": 87.37,
+        "gas_median": 85.88,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      }
+    },
+    "language": {
+      "-0.10": {
+        "gas_mean": 87.77,
+        "gas_median": 87.0,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "-0.05": {
+        "gas_mean": 86.88,
+        "gas_median": 85.62,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "+0.05": {
+        "gas_mean": 85.1,
+        "gas_median": 82.88,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "+0.10": {
+        "gas_mean": 84.21,
+        "gas_median": 81.5,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      }
+    },
+    "salary_transparency": {
+      "-0.10": {
+        "gas_mean": 86.16,
+        "gas_median": 82.62,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "-0.05": {
+        "gas_mean": 86.07,
+        "gas_median": 83.44,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "+0.05": {
+        "gas_mean": 85.91,
+        "gas_median": 85.06,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      },
+      "+0.10": {
+        "gas_mean": 85.82,
+        "gas_median": 85.88,
+        "categories": {
+          "genuine_junior": 17.61,
+          "ambiguous": 53.73,
+          "paradox": 6.57,
+          "off_topic": 1.19,
+          "bootcamp": 20.9
+        },
+        "total": 335
+      }
+    }
+  },
+  "summary": {
+    "max_shift_percent": 0.0,
+    "max_shift_details": {
+      "target": "experience",
+      "delta": "-0.10",
+      "category": "genuine_junior",
+      "baseline": 17.61,
+      "new": 17.61,
+      "shift_abs": 0.0
+    },
+    "average_shift_percent": 0.0,
+    "n_scenarios": 20
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "corpus_size": 331,
+  "classes_evaluated": [
+    "ambiguous",
+    "bootcamp",
+    "genuine_junior",
+    "paradox"
+  ],
+  "models": {
+    "LogisticRegression": {
+      "folds": 5,
+      "accuracy_mean": 0.934,
+      "accuracy_std": 0.028,
+      "f1_macro_mean": 0.869,
+      "f1_macro_std": 0.098,
+      "classification_report": {
+        "ambiguous": {
+          "precision": 0.8910891089108911,
+          "recall": 1.0,
+          "f1-score": 0.9424083769633508,
+          "support": 180.0
+        },
+        "bootcamp": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 70.0
+        },
+        "genuine_junior": {
+          "precision": 1.0,
+          "recall": 0.7796610169491526,
+          "f1-score": 0.8761904761904762,
+          "support": 59.0
+        },
+        "paradox": {
+          "precision": 1.0,
+          "recall": 0.5909090909090909,
+          "f1-score": 0.7428571428571429,
+          "support": 22.0
+        },
+        "accuracy": 0.9335347432024169,
+        "macro avg": {
+          "precision": 0.9727722772277227,
+          "recall": 0.8426425269645609,
+          "f1-score": 0.8903639990027424,
+          "support": 331.0
+        },
+        "weighted avg": {
+          "precision": 0.9407735335467081,
+          "recall": 0.9335347432024169,
+          "f1-score": 0.9295214594909316,
+          "support": 331.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          180,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          70,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          46,
+          0
+        ],
+        [
+          9,
+          0,
+          0,
+          13
+        ]
+      ],
+      "labels": [
+        "ambiguous",
+        "bootcamp",
+        "genuine_junior",
+        "paradox"
+      ]
+    },
+    "MultinomialNB": {
+      "folds": 5,
+      "accuracy_mean": 0.928,
+      "accuracy_std": 0.029,
+      "f1_macro_mean": 0.862,
+      "f1_macro_std": 0.098,
+      "classification_report": {
+        "ambiguous": {
+          "precision": 0.8823529411764706,
+          "recall": 1.0,
+          "f1-score": 0.9375,
+          "support": 180.0
+        },
+        "bootcamp": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 70.0
+        },
+        "genuine_junior": {
+          "precision": 1.0,
+          "recall": 0.7457627118644068,
+          "f1-score": 0.8543689320388349,
+          "support": 59.0
+        },
+        "paradox": {
+          "precision": 1.0,
+          "recall": 0.5909090909090909,
+          "f1-score": 0.7428571428571429,
+          "support": 22.0
+        },
+        "accuracy": 0.9274924471299094,
+        "macro avg": {
+          "precision": 0.9705882352941176,
+          "recall": 0.8341679506933743,
+          "f1-score": 0.8836815187239945,
+          "support": 331.0
+        },
+        "weighted avg": {
+          "precision": 0.9360227474675671,
+          "recall": 0.9274924471299094,
+          "f1-score": 0.9229626106741643,
+          "support": 331.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          180,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          70,
+          0,
+          0
+        ],
+        [
+          15,
+          0,
+          44,
+          0
+        ],
+        [
+          9,
+          0,
+          0,
+          13
+        ]
+      ],
+      "labels": [
+        "ambiguous",
+        "bootcamp",
+        "genuine_junior",
+        "paradox"
+      ]
+    }
+  },
+  "top_features_per_class": {
+    "ambiguous": [
+      "intern",
+      "platform",
+      "junior stack",
+      "product",
+      "businesses",
+      "digital",
+      "innovative",
+      "leading",
+      "description",
+      "company"
+    ],
+    "bootcamp": [
+      "career",
+      "need",
+      "cyber security",
+      "cyber",
+      "entry",
+      "entry level",
+      "security",
+      "programme",
+      "level",
+      "skills"
+    ],
+    "genuine_junior": [
+      "ai",
+      "desirable",
+      "coding",
+      "role",
+      "engineer",
+      "experience",
+      "software engineer",
+      "java",
+      "early career",
+      "tech"
+    ],
+    "paradox": [
+      "years",
+      "embedded",
+      "business trainee",
+      "commercial business",
+      "site",
+      "26",
+      "uk",
+      "commercial",
+      "junior software",
+      "10 years"
+    ]
+  },
+  "summary": {
+    "best_model": "LogisticRegression",
+    "best_accuracy": 0.934,
+    "best_f1_macro": 0.869
+  }
+}
