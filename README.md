@@ -125,4 +125,4 @@ This project is released under the MIT License.
 
 If you use this code or dataset, please cite:
 
-> Portero, G. (2026). *Beyond the Graduate Label: An Empirical NLP-Based Analysis of Requirements Inflation and Bootcamp Misclassification in UK Junior Software Engineering Postings*. BSc dissertation, York St John University.
+> Ponce, G. (2026). *Beyond the Graduate Label: An Empirical NLP-Based Analysis of Requirements Inflation and Bootcamp Misclassification in UK Junior Software Engineering Postings*. BSc dissertation, York St John University.
